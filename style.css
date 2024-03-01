@@ -38,6 +38,18 @@ h1{font-size: 70px;}
   }
 
 
-  hr{text-decoration-thickness: 20px;}
- 
+ hr{
+  height: 10px;
+  background: #000;
+   margin-right: 81%;
+   margin-left: -10%;
+}
 
+
+
+
+.p1text{
+
+font-size: 60px; 
+font-family: 1em 'Times New Roman', Times, serif;
+}
