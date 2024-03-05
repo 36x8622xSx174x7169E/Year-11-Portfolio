@@ -2,7 +2,9 @@
 
 body {
   background-image: url(backround\ image.png);
-  background-size: cover;
+  background-size:100%;
+  
+  
 }
 h1 {
     text-align:left;
@@ -15,12 +17,27 @@ h1 {
 .aboutme{
   background:white;
   height: 550px;
-  width:1000px;
+  width: 800px;
   opacity:0.7;
   
 }
 .aboutme h3,.aboutme p{
   color: #000;
+}
+
+.subject{
+  background:white;
+  height: 550px;
+  width: 300px;
+  opacity:0.7;
+  float: right;
+  
+  
+}
+
+.subject h3, .subject p{
+  color: #000;
+  text-align: 4px right;
 }
 
 
@@ -62,11 +79,13 @@ h3{
  hr{
   height: 10px;
   background: #000;
-   margin-right: -10%;
+   
    margin-left: -10%;
    background-color: #000;
    border-top: #000;
    border-bottom: #000;
+   border-right: #000;
+   border-left: #000;
 }
 
 
