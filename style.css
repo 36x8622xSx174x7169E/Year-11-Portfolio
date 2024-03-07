@@ -93,7 +93,9 @@ h3 {
   overflow: hidden;
   position: fixed;
   width: 100vw;
-  margin-top: -50px;
+  margin-top: -45px;
+  z-index: 1;
+  
 }
 
 /* Style the links inside the navigation bar */
