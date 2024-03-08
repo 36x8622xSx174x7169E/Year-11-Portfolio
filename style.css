@@ -86,9 +86,9 @@ h1 {
 }
 
 .yeet {
-  width: 2000px;
+  width: 2500px;
   background: white;
-  height: 1500px;
+  height: 2000px;
   opacity: 0.7;
   margin: 2%;
   padding-left: 0.3%;
@@ -97,11 +97,27 @@ h1 {
 
 }
 
+.place {
+  z-index: 3;
+  opacity: 1;
+  float: right;
 
-.yeet h3 .yeet p .yeet h2 {
+
+}
+
+
+.yeet h3,
+.yeet p,
+.yeet h2 {
   color: #000;
-  text-align: 4px right;
+  background-color: #ffffff;
+  max-width: 600px;
+  word-wrap: break-word;
 
+}
+
+.link h2 {
+  color: #ffffff;
 }
 
 
