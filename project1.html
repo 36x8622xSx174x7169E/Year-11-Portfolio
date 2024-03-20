@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
     body {
       font-family: Arial, Helvetica, sans-serif;
       font-size: 20px;
     }
-    
+
     #myBtn {
       display: none;
       position: fixed;
@@ -29,115 +30,143 @@
       padding: 15px;
       border-radius: 4px;
     }
-    
+
     #myBtn:hover {
       background-color: #555;
     }
-    </style>
+  </style>
 
 
 
 
 </head>
+
 <body>
-    
-    
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
 
-<script>
-// Get the button
-let mybutton = document.getElementById("myBtn");
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
+  <script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-</script>
-    
-    
-    
-    
-    
-    
-    
-    <div class="topnav">
-        <a class="active" href="index.html">Home</a>
-        <a href="project1.html">Project 1</a>
-        <a href="project2.html">Project 2</a>
-        
-      </div>
-      
-        <h1>Project 1</h1>
-        
-        <hr class="line" />
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
 
-    <div class="split-box">
-        <div class="aboutme rotate">
-            <h3>Requirements</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus dignissimos unde in. Maxime dolor,
-                corporis omnis amet, voluptatum explicabo exercitationem nemo voluptatem laudantium rem aliquid
-                accusantium Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis est ducimus necessitatibus laborum, mollitia dolore maiores sit, itaque corporis vero dicta excepturi! Eveniet ipsa sunt error, reiciendis voluptatibus fugit sed.
-                a, odit consectetur necessitatibus!</p>
-        </div>
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
 
-        <div class="subject rotate">
-            <h3>End Users </h3>
-            <p>Help</p>
-        </div>
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+
+
+
+
+
+
+
+  <div class="topnav">
+    <a class="active" href="index.html">Home</a>
+    <a href="project1.html">Project 1</a>
+    <a href="project2.html">Project 2</a>
+
+  </div>
+
+  <h1>Project 1</h1>
+
+  <hr class="line" />
+
+  <div class="split-box">
+    <div class="aboutme rotate">
+      <h3>Requirements</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus dignissimos unde in. Maxime dolor,
+        corporis omnis amet, voluptatum explicabo exercitationem nemo voluptatem laudantium rem aliquid
+        accusantium Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis est ducimus necessitatibus
+        laborum, mollitia dolore maiores sit, itaque corporis vero dicta excepturi! Eveniet ipsa sunt error, reiciendis
+        voluptatibus fugit sed.
+        a, odit consectetur necessitatibus!</p>
+    </div>
+
+    <div class="subject rotate">
+      <h3>End Users </h3>
+      <p>Help</p>
+    </div>
+
+  </div>
+
+  <div class="split-box">
+    <div class="aboutme rotate">
+      <h3>Development</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus dignissimos unde in. Maxime dolor,
+        corporis omnis amet, voluptatum explicabo exercitationem nemo voluptatem laudantium rem aliquid
+        accusantium
+        a, odit consectetur necessitatibus!</p>
+    </div>
+
+    <div class="subject rotate">
+      <h3>Final Outcome </h3>
+      <p>Help</p>
+    </div>
+
+  </div>
+
+  <div class="split-box2">
+    <div class="aboutme rotate">
+      <h3>Implications</h3>
+      <p><b>Asthetics</b>
+        <br>
+        Asthetics is about making sure the character looks good, this gives quality to our final product and is more
+        appealing to the end
+        users.
+        I will do this by properly cloring and textiring my character and also make sure that my lighting and also the
+        general shape of my character
+        is correct.
+        <hr class="slime" />
+        <b>Functionality</b>
+        <br>
+        Functionality is what makes the end product work this means that the character is animated and is how t os
+        supposed to look.
+        I will do this by making sure my character dosent have any material clipping and isn't overdetailed.
+        I will also make sure that my character is animated correctly and that the animation dosent break, i will
+        achieve this by running the
+        animation muiltiple times before saving.
+        <hr class="slime" />
+        <b>Usability</b>
+        <br>
+
+        Usability makes sure that the end product is easy animated correctly and is appealing to use.
+        I will do this by making sure that i have a smooth animation that looks natural and dosent feel still or forced.
+        I will make sure there is no clipping and responds correctly when an imput is recieved.
+
+      </p>
+    </div>
+
+    <div class="subject rotate">
+      <h3>Over View </h3>
+      <p>Help</p>
+
+
 
     </div>
 
-    <div class="split-box">
-        <div class="aboutme rotate">
-            <h3>Development</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus dignissimos unde in. Maxime dolor,
-                corporis omnis amet, voluptatum explicabo exercitationem nemo voluptatem laudantium rem aliquid
-                accusantium
-                a, odit consectetur necessitatibus!</p>
-        </div>
+  </div>
 
-        <div class="subject rotate">
-            <h3>Final Outcome </h3>
-            <p>Help</p>
-        </div>
+  <div class="link">
+    <a href="development.html">
+      <h2>Development</h2>
+    </a>
+  </div>
 
-    </div>
-
-    <div class="split-box">
-        <div class="aboutme rotate">
-            <h3>Implications</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus dignissimos unde in. Maxime dolor,
-                corporis omnis amet, voluptatum explicabo exercitationem nemo voluptatem laudantium rem aliquid
-                accusantium
-                a, odit consectetur necessitatibus!</p>
-        </div>
-
-        <div class="subject rotate">
-            <h3>Over View </h3>
-            <p>Help</p>
-
-             
-        
-          </div>
-
-    </div>
-    
-    <div class="link">
-      <a href="development.html"> <h2>Development</h2></a>
-    </div>
-   
 </body>
+
 </html>
