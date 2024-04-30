@@ -119,23 +119,22 @@ h1 {
 .yeet {
   width: 2500px;
   background: white;
-  height: 2000px;
+  height: 2100px;
   opacity: 0.7;
   margin: 2%;
   padding-left: 0.3%;
   padding-top: -5%;
   padding-right: 0.1%;
+  z-index:4;
+  position: sticky;
 
 }
 
 .place {
   z-index: 3;
-  opacity: 1;
+  opacity: 1000;
   float: right;
   flex-wrap: wrap;
-
-
-
 }
 
 
@@ -147,6 +146,7 @@ h1 {
   background-color: #ffffff;
   max-width: 600px;
   word-wrap: break-word;
+
 
 }
 
