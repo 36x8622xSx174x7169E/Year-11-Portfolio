@@ -127,6 +127,7 @@ h1 {
   padding-right: 0.1%;
   z-index: 4;
   position: sticky;
+  
 
 }
 
@@ -135,6 +136,7 @@ h1 {
   opacity: 1000;
   float: right;
   flex-wrap: wrap;
+  align-self: right;
 
 }
 
@@ -147,6 +149,8 @@ h1 {
   background-color: #ffffff;
   max-width: 600px;
   word-wrap: break-word;
+  opacity:1;
+  z-index:1;
 
 
 }
@@ -160,12 +164,16 @@ h3 {
   font: sans-serif;
   font-size: 40px;
   color: #000000;
+  opacity:1;
+  z-index:1;
 }
 
 h2 {
   font: sans-serif;
   font-size: 50px;
   color: #000000;
+  opacity:1;
+  z-index:1;
 }
 
 
